@@ -1,0 +1,93 @@
+# Game Development & Design
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity Asset meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity generated
+*.unitypackage
+*.app
+*.apk
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.suo
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+
+# Builds and executables
+*.exe
+*.out
+*.app
+*.dmg
+*.pkg
+*.zip
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Node modules (for web-based games)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (for game scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Assets (uncomment if you want to exclude large asset files)
+# *.psd
+# *.wav
+# *.mp3
+# *.mp4
+# *.mov
+
+# Build artifacts
+dist/
+build/
+*.o
+*.a
