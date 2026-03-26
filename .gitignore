@@ -1,0 +1,57 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# Unity auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Addressables generated content
+ServerData/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln.iml
+
+# Test and coverage
+TestResults/
+*.coverage
+*.coveragexml
+
+# Crash / diagnostic output
+sysinfo.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code workspace settings (machine-specific)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Keep Unity meta files tracked
+!*.meta
