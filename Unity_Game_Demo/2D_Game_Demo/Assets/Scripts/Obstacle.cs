@@ -8,6 +8,7 @@ public class Obstacle : MonoBehaviour
     public float maxSize = 2.0f;
     public float minSpeed = 50f;
     public float maxSpeed = 150f;
+    public float maxVelocity = 8f;
     public float maxSpinSpeed = 10f;
     public GameObject bounceEffect;
     Rigidbody2D rb;
@@ -25,10 +26,17 @@ public class Obstacle : MonoBehaviour
         rb.AddTorque(randomTorque);
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        if (rb == null)
+        {
+            return;
+        }
 
+        if (rb.linearVelocity.magnitude > maxVelocity)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * maxVelocity;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
